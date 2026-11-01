@@ -142,25 +142,23 @@ def comparer_ids(a: dict, b: dict) -> dict:
 
 # ---------- Mémoire anti-répétition ----------
 class Memoire:
-    """Retient les derniers tirages. Ici un simple fichier JSON (un seul joueur) ;
-    pour plusieurs joueurs, stocker la même liste par session dans partenaire.db."""
+    """Retient les derniers tirages, PAR VISITEUR (session Streamlit) : rien n'est partagé entre joueurs."""
 
-    def __init__(self, fichier=FICHIER_MEMOIRE, taille=40):
-        self.fichier, self.taille = Path(fichier), taille
+    def __init__(self, fichier=None, taille=40):
+        self.taille = taille
         try:
-            self.vus = json.loads(self.fichier.read_text(encoding="utf-8"))
+            import streamlit as st
+            self._etat = st.session_state
         except Exception:
-            self.vus = []
+            self._etat = {}
+        self.vus = list(self._etat.get("_memoire_tirages", []))
 
     def deja_vus(self) -> set:
         return set(self.vus)
 
     def noter(self, *elements):
         self.vus = (self.vus + [e for e in elements if e])[-self.taille:]
-        try:
-            self.fichier.write_text(json.dumps(self.vus, ensure_ascii=False), encoding="utf-8")
-        except OSError:
-            pass
+        self._etat["_memoire_tirages"] = self.vus
 
 
 # ---------- Contrôle des données ----------

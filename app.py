@@ -9,6 +9,7 @@ import donnees as dn
 import db
 
 st.set_page_config(page_title="BM_Portrait du Cœur", page_icon="💞", layout="wide")
+st.markdown("""<style>[data-testid="stImage"] img{aspect-ratio:3/4;object-fit:cover;border-radius:12px;}</style>""", unsafe_allow_html=True)
 st.title("💞 BM_Portrait du Cœur")
 st.caption("Un jeu Better Mind pour les couples — mieux comprendre, mieux communiquer, mieux vivre à deux. "
            "Jeu de réflexion et de coaching bienveillant, ni thérapie ni diagnostic.")

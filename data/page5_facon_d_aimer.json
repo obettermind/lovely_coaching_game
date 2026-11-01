@@ -1,0 +1,571 @@
+{
+  "schema_version": 1,
+  "page": {
+    "id": "page5_facon_d_aimer",
+    "ordre": 5,
+    "titre": "Façon d'aimer",
+    "sous_titre": "Comment cette personne donne et reçoit l'affection, ce dont elle a besoin, et comment elle vit un désaccord."
+  },
+  "meta": {
+    "langue": "fr",
+    "style_illustration": "illustration douce, aplats chauds, sans visage, sans texte, scènes du quotidien, mains, objets et silhouettes neutres",
+    "regles_tirage": {
+      "image": "Après le choix d'une option, tirer UNE variante dans option.scene.variantes. Ne jamais tirer dans une autre option.",
+      "suggestions": "Pour chaque bloc (proposer, dire, doser), tirer une phrase dans les options retenues pour cette page. Éviter de retomber sur les dernières phrases déjà montrées au joueur.",
+      "memoire": "Conserver les derniers identifiants de variantes et de phrases utilisés pour limiter les répétitions d'une partie à l'autre."
+    },
+    "test_realite": [
+      "C'est votre perception. Et si vous lui demandiez si c'est bien ce qu'elle ou il aimerait ?",
+      "Ceci est une piste, pas une vérité : la meilleure source, c'est la personne elle-même."
+    ],
+    "avertissement": "Jeu de réflexion, pas un test psychologique ni une thérapie."
+  },
+  "criteres": [
+    {
+      "id": "affection",
+      "question": "Comment exprime-t-il ou elle son affection ?",
+      "options": [
+        {
+          "id": "aff_mots",
+          "libelle": "Par les mots",
+          "etiquettes": [
+            "mots",
+            "écrit",
+            "verbal",
+            "compliments"
+          ],
+          "scene": {
+            "description": "Un petit mot écrit à la main posé près d'une tasse.",
+            "variantes": [
+              {
+                "id": "aff_mots_v1",
+                "description": "Un mot glissé sous une tasse fumante, lumière du matin",
+                "fichier": "imagesp5/aff_mots_v1.png"
+              },
+              {
+                "id": "aff_mots_v2",
+                "description": "Un message qui s'affiche sur un téléphone posé sur une table de chevet, lumière de lampe",
+                "fichier": "imagesp5/aff_mots_v2.png"
+              },
+              {
+                "id": "aff_mots_v3",
+                "description": "Un mot plié dans la poche d'un manteau suspendu à l'entrée",
+                "fichier": "imagesp5/aff_mots_v3.png"
+              }
+            ]
+          },
+          "suggestions": {
+            "proposer": [
+              "Écrivez un petit mot sincère et glissez-le dans son sac ou sur son bureau.",
+              "Envoyez-lui en milieu de journée un message qui nomme une qualité précise que vous appréciez."
+            ],
+            "dire": [
+              "Ce que j'aime chez toi, c'est… (complétez avec un exemple précis).",
+              "Hier, quand tu as…, ça m'a vraiment touché."
+            ],
+            "doser": [
+              "Les compliments très généraux sonnent creux : un détail précis touche davantage.",
+              "Un message écrit sous le coup de la colère se relit longtemps : choisissez des mots que vous assumerez à froid."
+            ]
+          }
+        },
+        {
+          "id": "aff_gestes",
+          "libelle": "Par les gestes",
+          "etiquettes": [
+            "contact",
+            "toucher",
+            "tendresse",
+            "proximité"
+          ],
+          "scene": {
+            "description": "Deux mains qui se rejoignent, ou une main posée sur une épaule dans une cuisine.",
+            "variantes": [
+              {
+                "id": "aff_gestes_v1",
+                "description": "Deux mains qui se rejoignent sur une table, lumière dorée",
+                "fichier": "imagesp5/aff_gestes_v1.png"
+              },
+              {
+                "id": "aff_gestes_v2",
+                "description": "Une main posée sur une épaule, vue de dos, dans une cuisine",
+                "fichier": "imagesp5/aff_gestes_v2.png"
+              },
+              {
+                "id": "aff_gestes_v3",
+                "description": "Deux silhouettes épaule contre épaule sur un canapé, sous un plaid",
+                "fichier": "imagesp5/aff_gestes_v3.png"
+              }
+            ]
+          },
+          "suggestions": {
+            "proposer": [
+              "Offrez-lui une accolade sans raison, quelques secondes de plus que d'habitude.",
+              "Posez doucement une main sur son épaule en croisant son chemin dans la maison."
+            ],
+            "dire": [
+              "J'avais juste envie de te sentir près de moi.",
+              "Viens, on reste là deux minutes, sans rien dire."
+            ],
+            "doser": [
+              "Le contact est parfois mal reçu dans un moment de tension : demandez d'abord « Un câlin ? ».",
+              "Tous les contacts ne se valent pas : observez ceux que cette personne recherche vraiment."
+            ]
+          }
+        },
+        {
+          "id": "aff_attentions",
+          "libelle": "Par les attentions",
+          "etiquettes": [
+            "actes",
+            "service",
+            "petites attentions",
+            "concret"
+          ],
+          "scene": {
+            "description": "Une tasse de thé préparée, un objet réparé, un repas gardé au chaud.",
+            "variantes": [
+              {
+                "id": "aff_attentions_v1",
+                "description": "Une tasse de thé préparée et posée sur un bureau, vapeur visible",
+                "fichier": "imagesp5/aff_attentions_v1.png"
+              },
+              {
+                "id": "aff_attentions_v2",
+                "description": "Un objet réparé posé sur un établi avec un petit papier",
+                "fichier": "imagesp5/aff_attentions_v2.png"
+              },
+              {
+                "id": "aff_attentions_v3",
+                "description": "Un plat couvert gardé au chaud sur la table",
+                "fichier": "imagesp5/aff_attentions_v3.png"
+              }
+            ]
+          },
+          "suggestions": {
+            "proposer": [
+              "Faites une petite chose utile qui n'a pas été demandée : le thé, une course, un souci à régler.",
+              "Anticipez un besoin du quotidien : préparez ce dont cette personne aura besoin demain."
+            ],
+            "dire": [
+              "J'ai vu que tu avais beaucoup à faire, je m'en occupe.",
+              "J'ai pensé à toi en faisant ça."
+            ],
+            "doser": [
+              "Ses propres attentions passent parfois inaperçues : pensez à les remarquer à voix haute.",
+              "Une attention qui ressemble à un devoir perd sa valeur : gardez-la spontanée."
+            ]
+          }
+        },
+        {
+          "id": "aff_temps",
+          "libelle": "Par le temps partagé",
+          "etiquettes": [
+            "présence",
+            "temps",
+            "attention",
+            "partage"
+          ],
+          "scene": {
+            "description": "Deux silhouettes marchant côte à côte, un téléphone retourné sur la table.",
+            "variantes": [
+              {
+                "id": "aff_temps_v1",
+                "description": "Deux silhouettes marchant côte à côte sur un chemin au coucher du soleil",
+                "fichier": "imagesp5/aff_temps_v1.png"
+              },
+              {
+                "id": "aff_temps_v2",
+                "description": "Deux téléphones retournés face contre table à côté de deux tasses",
+                "fichier": "imagesp5/aff_temps_v2.png"
+              },
+              {
+                "id": "aff_temps_v3",
+                "description": "Deux chaises côte à côte sur un balcon",
+                "fichier": "imagesp5/aff_temps_v3.png"
+              }
+            ]
+          },
+          "suggestions": {
+            "proposer": [
+              "Proposez 30 minutes rien qu'à vous deux, téléphones éloignés.",
+              "Fixez un rendez-vous régulier (un café, une marche) et tenez-le comme un vrai rendez-vous."
+            ],
+            "dire": [
+              "J'aimerais passer un moment avec toi, juste toi et moi.",
+              "Je suis tout à toi pendant l'heure qui vient."
+            ],
+            "doser": [
+              "Une présence distraite (écran, pensées ailleurs) compte moins qu'un temps court pleinement donné.",
+              "Évitez de transformer le temps partagé en liste de choses à faire."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "besoin",
+      "question": "De quoi a-t-il ou elle le plus besoin ?",
+      "options": [
+        {
+          "id": "bes_reconnaissance",
+          "libelle": "Reconnaissance",
+          "etiquettes": [
+            "valorisation",
+            "mérite",
+            "remerciement",
+            "fierté"
+          ],
+          "scene": {
+            "description": "Une main qui applaudit doucement, une médaille posée sur une table de cuisine.",
+            "variantes": [
+              {
+                "id": "bes_reconnaissance_v1",
+                "description": "Deux mains qui applaudissent doucement près d'une table",
+                "fichier": "imagesp5/bes_reconnaissance_v1.png"
+              },
+              {
+                "id": "bes_reconnaissance_v2",
+                "description": "Une médaille posée sur une table de cuisine",
+                "fichier": "imagesp5/bes_reconnaissance_v2.png"
+              },
+              {
+                "id": "bes_reconnaissance_v3",
+                "description": "Un mot de remerciement coincé dans le cadre d'un miroir",
+                "fichier": "imagesp5/bes_reconnaissance_v3.png"
+              }
+            ]
+          },
+          "suggestions": {
+            "proposer": [
+              "Remerciez cette personne pour quelque chose de précis fait cette semaine.",
+              "Mettez en avant un effort qui a peu été vu, devant un proche."
+            ],
+            "dire": [
+              "Merci d'avoir fait ça, je sais que ce n'était pas facile.",
+              "Ce que tu as fait compte vraiment pour moi."
+            ],
+            "doser": [
+              "La critique, même légère, pèse plus lourd que d'habitude : commencez par ce qui va bien.",
+              "Un merci automatique perd son effet : précisez toujours de quoi vous remerciez."
+            ]
+          }
+        },
+        {
+          "id": "bes_calme",
+          "libelle": "Calme",
+          "etiquettes": [
+            "repos",
+            "silence",
+            "espace",
+            "douceur"
+          ],
+          "scene": {
+            "description": "Un fauteuil près d'une fenêtre, une bougie, un livre ouvert.",
+            "variantes": [
+              {
+                "id": "bes_calme_v1",
+                "description": "Un fauteuil près d'une fenêtre avec un plaid, lumière douce",
+                "fichier": "imagesp5/bes_calme_v1.png"
+              },
+              {
+                "id": "bes_calme_v2",
+                "description": "Une bougie allumée à côté d'un livre ouvert",
+                "fichier": "imagesp5/bes_calme_v2.png"
+              },
+              {
+                "id": "bes_calme_v3",
+                "description": "Une tasse fumante sur un rebord de fenêtre sous la pluie",
+                "fichier": "imagesp5/bes_calme_v3.png"
+              }
+            ]
+          },
+          "suggestions": {
+            "proposer": [
+              "Offrez-lui une soirée tranquille, sans programme ni obligation.",
+              "Prenez en charge une tâche source de bruit ou de pression, et laissez-lui un moment pour souffler."
+            ],
+            "dire": [
+              "Je te laisse souffler, et je suis là quand tu veux.",
+              "Rien à faire ce soir : on peut simplement être bien."
+            ],
+            "doser": [
+              "Évitez les sollicitations en rafale : un besoin de silence n'est pas un rejet.",
+              "Évitez de remplir chaque pause avec une question : un silence partagé peut faire du bien."
+            ]
+          }
+        },
+        {
+          "id": "bes_aventure",
+          "libelle": "Aventure",
+          "etiquettes": [
+            "nouveauté",
+            "surprise",
+            "mouvement",
+            "découverte"
+          ],
+          "scene": {
+            "description": "Un sentier au loin, un sac à dos, une carte dépliée.",
+            "variantes": [
+              {
+                "id": "bes_aventure_v1",
+                "description": "Un sentier qui monte au loin, un sac à dos posé au premier plan",
+                "fichier": "imagesp5/bes_aventure_v1.png"
+              },
+              {
+                "id": "bes_aventure_v2",
+                "description": "Une carte dépliée sur une table avec une épingle",
+                "fichier": "imagesp5/bes_aventure_v2.png"
+              },
+              {
+                "id": "bes_aventure_v3",
+                "description": "Deux paires de chaussures de marche devant une porte",
+                "fichier": "imagesp5/bes_aventure_v3.png"
+              }
+            ]
+          },
+          "suggestions": {
+            "proposer": [
+              "Surprenez cette personne avec une petite sortie improvisée.",
+              "Proposez de tester ensemble quelque chose de nouveau : un lieu, un plat, une activité."
+            ],
+            "dire": [
+              "Et si on faisait quelque chose qu'on n'a jamais fait ?",
+              "J'ai une idée un peu folle pour ce week-end, ça te dit ?"
+            ],
+            "doser": [
+              "Une routine trop installée pèse : un petit changement suffit, nul besoin d'un grand projet.",
+              "Une surprise mal préparée peut stresser : gardez de la marge et un plan B."
+            ]
+          }
+        },
+        {
+          "id": "bes_securite",
+          "libelle": "Sécurité",
+          "etiquettes": [
+            "stabilité",
+            "fiabilité",
+            "engagement",
+            "repères"
+          ],
+          "scene": {
+            "description": "Une porte qui s'ouvre sur une lumière chaude, un agenda partagé, une clé posée dans un bol.",
+            "variantes": [
+              {
+                "id": "bes_securite_v1",
+                "description": "Une porte qui s'ouvre sur une lumière chaude",
+                "fichier": "imagesp5/bes_securite_v1.png"
+              },
+              {
+                "id": "bes_securite_v2",
+                "description": "Un agenda partagé ouvert avec deux écritures différentes",
+                "fichier": "imagesp5/bes_securite_v2.png"
+              },
+              {
+                "id": "bes_securite_v3",
+                "description": "Une clé posée dans un petit bol près de l'entrée",
+                "fichier": "imagesp5/bes_securite_v3.png"
+              }
+            ]
+          },
+          "suggestions": {
+            "proposer": [
+              "Confirmez un projet à venir et tenez-le, même s'il est petit.",
+              "Prévenez à l'avance de vos changements de programme plutôt qu'à la dernière minute."
+            ],
+            "dire": [
+              "Tu peux compter sur moi, je suis là.",
+              "Voilà ce qu'on prévoit pour la semaine : ça te convient ?"
+            ],
+            "doser": [
+              "Les imprévus répétés ou les promesses floues inquiètent : un « peut-être » peut peser plus qu'un « non ».",
+              "Évitez de rassurer à la légère : mieux vaut une promesse modeste tenue qu'une grande oubliée."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "desaccord",
+      "question": "Comment réagit-il ou elle face à un désaccord ?",
+      "options": [
+        {
+          "id": "des_parler",
+          "libelle": "En parler tout de suite",
+          "etiquettes": [
+            "dialogue",
+            "direct",
+            "immédiat",
+            "expression"
+          ],
+          "scene": {
+            "description": "Deux chaises face à face autour d'une table, deux tasses.",
+            "variantes": [
+              {
+                "id": "des_parler_v1",
+                "description": "Deux chaises face à face autour d'une table avec deux tasses",
+                "fichier": "imagesp5/des_parler_v1.png"
+              },
+              {
+                "id": "des_parler_v2",
+                "description": "Un banc dans un parc, deux silhouettes tournées l'une vers l'autre",
+                "fichier": "imagesp5/des_parler_v2.png"
+              },
+              {
+                "id": "des_parler_v3",
+                "description": "Deux tasses fumantes sur une table de cuisine, deux chaises légèrement tournées l'une vers l'autre",
+                "fichier": "imagesp5/des_parler_v3.png"
+              }
+            ]
+          },
+          "suggestions": {
+            "proposer": [
+              "Choisissez un moment calme et mettez le sujet sur la table sans attendre.",
+              "Commencez par dire ce que vous ressentez avant de dire ce que l'autre a fait."
+            ],
+            "dire": [
+              "J'ai envie qu'on en parle, pour que ça ne reste pas entre nous.",
+              "Je voudrais comprendre ce que tu as ressenti."
+            ],
+            "doser": [
+              "La conversation à chaud peut aller trop vite : proposer une pause de 10 minutes peut aider.",
+              "Parler tout de suite ne veut pas dire tout régler d'un coup : un sujet à la fois."
+            ]
+          }
+        },
+        {
+          "id": "des_recul",
+          "libelle": "Prendre du recul d'abord",
+          "etiquettes": [
+            "retrait",
+            "réflexion",
+            "temps",
+            "espace"
+          ],
+          "scene": {
+            "description": "Une silhouette devant une fenêtre, une porte entrouverte.",
+            "variantes": [
+              {
+                "id": "des_recul_v1",
+                "description": "Une silhouette devant une fenêtre, vue de dos",
+                "fichier": "imagesp5/des_recul_v1.png"
+              },
+              {
+                "id": "des_recul_v2",
+                "description": "Une porte entrouverte avec une lumière dans le couloir",
+                "fichier": "imagesp5/des_recul_v2.png"
+              },
+              {
+                "id": "des_recul_v3",
+                "description": "Une longue promenade solitaire sur un chemin, vue de loin",
+                "fichier": "imagesp5/des_recul_v3.png"
+              }
+            ]
+          },
+          "suggestions": {
+            "proposer": [
+              "Laissez-lui du temps pour réfléchir, puis proposez de reprendre la conversation à une heure précise.",
+              "Dites simplement que vous êtes disponible, sans insister, et laissez la porte ouverte."
+            ],
+            "dire": [
+              "Prends ton temps. On en reparle ce soir, d'accord ?",
+              "Je ne vais nulle part : on en reparle quand ce sera le bon moment pour toi."
+            ],
+            "doser": [
+              "Le silence n'est pas toujours du désintérêt : donnez un rendez-vous plutôt que de laisser traîner.",
+              "Évitez les messages en rafale : le recul a besoin d'espace."
+            ]
+          }
+        },
+        {
+          "id": "des_humour",
+          "libelle": "Désamorcer par l'humour",
+          "etiquettes": [
+            "humour",
+            "légèreté",
+            "détente",
+            "complicité"
+          ],
+          "scene": {
+            "description": "Deux tasses qui s'entrechoquent, un petit dessin humoristique sur un post-it.",
+            "variantes": [
+              {
+                "id": "des_humour_v1",
+                "description": "Deux tasses qui s'entrechoquent",
+                "fichier": "imagesp5/des_humour_v1.png"
+              },
+              {
+                "id": "des_humour_v2",
+                "description": "Un petit dessin humoristique sur un post-it collé sur un frigo",
+                "fichier": "imagesp5/des_humour_v2.png"
+              },
+              {
+                "id": "des_humour_v3",
+                "description": "Deux paires de chaussettes dépareillées sur un étendoir",
+                "fichier": "imagesp5/des_humour_v3.png"
+              }
+            ]
+          },
+          "suggestions": {
+            "proposer": [
+              "Retrouvez un souvenir drôle à deux pour détendre l'atmosphère avant d'aborder le fond.",
+              "Proposez un mot-code complice qui veut dire « on respire, on reprend »."
+            ],
+            "dire": [
+              "On est deux têtes de mule, et on s'aime quand même.",
+              "Je propose qu'on se dispute plus tard, après le dessert."
+            ],
+            "doser": [
+              "L'humour ne doit pas esquiver le sujet : riez ensemble, puis revenez au problème.",
+              "Évitez l'ironie qui vise l'autre : l'humour partagé rapproche, la moquerie éloigne."
+            ]
+          }
+        },
+        {
+          "id": "des_solution",
+          "libelle": "Chercher la solution concrète",
+          "etiquettes": [
+            "pratique",
+            "solution",
+            "organisation",
+            "action"
+          ],
+          "scene": {
+            "description": "Une feuille à deux colonnes, un crayon, une liste.",
+            "variantes": [
+              {
+                "id": "des_solution_v1",
+                "description": "Une feuille à deux colonnes avec un crayon",
+                "fichier": "imagesp5/des_solution_v1.png"
+              },
+              {
+                "id": "des_solution_v2",
+                "description": "Un tableau blanc avec une flèche et une case cochée",
+                "fichier": "imagesp5/des_solution_v2.png"
+              },
+              {
+                "id": "des_solution_v3",
+                "description": "Deux mains posées sur une liste manuscrite",
+                "fichier": "imagesp5/des_solution_v3.png"
+              }
+            ]
+          },
+          "suggestions": {
+            "proposer": [
+              "Listez ensemble deux ou trois solutions possibles et choisissez-en une à essayer.",
+              "Fixez une date pour refaire le point sur la solution testée."
+            ],
+            "dire": [
+              "Qu'est-ce qu'on pourrait changer concrètement ?",
+              "Essayons ça une semaine, puis on voit ce qui marche."
+            ],
+            "doser": [
+              "La solution rapide peut laisser les émotions de côté : prenez un instant pour dire ce que chacun ressent.",
+              "Une solution imposée est rarement tenue : cherchez-la ensemble."
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
